@@ -1,0 +1,17 @@
+body {
+    font-family: 'lato', sans-serif;
+    background-color: #ffffff;
+}
+
+p, li {
+    font-family: 'PT Serif', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper {
+    
+}
