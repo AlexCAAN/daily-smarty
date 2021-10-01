@@ -1,6 +1,6 @@
 body {
     font-family: 'lato', sans-serif;
-    background-color: #ffffff;
+    background-color: #ffffff; 
 }
 
 p, li {
@@ -14,4 +14,142 @@ p, li {
 
 .content-wrapper {
     width: 660px;
+}
+
+.style-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.style-details-text {
+    text-align: right;
+}
+
+.style-details-text div{
+    color: #808080;
+    font-weight: normal;
+}
+
+.style-details-text h3{
+    margin-top: 40px;
+    margin-bottom:10px ;
+}
+
+.style-details-logo img{
+    width: 100%;
+}
+
+.dos-donts-wrapper{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 30px;
+}
+
+.dont-image-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dont-image-box img{
+    width: 50%;
+}
+
+.dont-image-box div{
+    font-size: 14px;
+    color: #999999;
+}
+
+.dos-donts-heading {
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.blue-text{
+    color: #0079ff;
+}
+
+.red-text{
+    color: #dc0004;
+}
+
+.dos-donts-list li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.alternate-options-wrapper {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.alternate-options-wrapper h3{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.alternate-options-wrapper li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.alternate-logo-images {
+    margin-top: 80px;
+    display: grid;
+    /* Repeat function usage */
+
+
+
+
+    
+    grid-template-columns: repeat(2, 1fr);
+
+
+
+
+
+    justify-items: center;
+    grid-gap: 100px 40px;
+}
+
+.image-logo {
+    width: 60%;
+}
+
+.text-logo {
+    width: 90%;
+}
+
+.additional-branding-details{
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.additional-branding-details a{
+    text-decoration: none;
+    color: #4fb8e8;
+    font-size: 19px;
+}
+
+.additional-branding-details p{
+    margin-bottom: 42px;
+}
+
+@media (max-width: 48em) {
+    .style-details, .dos-donts-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 50px; 
+    }
+
+    .style-details-text {
+        text-align: center;
+    }
 }
